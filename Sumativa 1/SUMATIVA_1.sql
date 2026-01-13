@@ -43,7 +43,7 @@ DECLARE
     v_total_empleados NUMBER := 0;
     v_contador_ok     NUMBER := 0;
 
-  /* Cursor con datos base (NO se genera usuario/clave en SQL) */
+  /* Cursor con datos base */
     CURSOR c_emp IS
     SELECT
         e.id_emp,
